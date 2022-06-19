@@ -17,6 +17,10 @@ hasCJKLanguage = true
 # 谷歌分析代号 [UA-XXXXXXXX-X]
 googleAnalytics = ""
 
+# whether to use robots.txt
+# 是否使用 robots.txt
+enableRobotsTXT = true
+
 # 作者配置
 [author]
   name = "維克特"
@@ -92,6 +96,12 @@ googleAnalytics = ""
     # whether to show Hugo and theme info
     # 是否显示 Hugo 和主题信息
     hugo = false
+    # whether to show copyright info
+    # 是否显示版权信息
+    copyright = false
+    # whether to show the author
+    # 是否显示作者
+    author = false
 
   # Home page config
   # 主页信息设置
@@ -140,3 +150,13 @@ googleAnalytics = ""
     # 评论系统设置
     [params.page.comment]
       enable = false
+
+  # Site SEO config
+  # 网站 SEO 配置
+  [params.seo]
+    # image URL
+    # 图片 URL
+    image = "/logo.png"
+    # thumbnail URL
+    # 缩略图 URL
+    thumbnailUrl = "/logo.png"
