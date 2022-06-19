@@ -52,14 +52,6 @@ googleAnalytics = ""
     name = "分類"
     url = "/categories/"
     title = ""
-  [[menu.main]]
-    weight = 4
-    identifier = "about"
-    pre = ""
-    post = ""
-    name = "關於我"
-    url = "/about/"
-    title = ""
 
 # Hugo 解析文档的配置
 [markup]
@@ -123,7 +115,7 @@ googleAnalytics = ""
     # Home page posts
     # 主页文章列表
     [params.home.posts]
-      enable = true
+      enable = false
       # special amount of posts in each home posts page
       # 主页每页显示文章数量
       paginate = 6
